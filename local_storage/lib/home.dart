@@ -59,14 +59,14 @@ class _HomeState extends State<Home> {
           background: Container(
             color: Colors.red,
             alignment: Alignment.centerLeft,
-            padding: const EdgeInsets.all(20.0),
-            child: const Icon(Icons.delete,color: Colors.white,),
+            padding: const EdgeInsets.all(22.0),
+            child: const Icon(Icons.delete,color: Colors.red,),
           ),
           secondaryBackground: Container(
             color: Colors.red,
             alignment: Alignment.centerRight,
-            padding: const EdgeInsets.all(20.0),
-            child: const Icon(Icons.delete, color: Colors.white,),
+            padding: const EdgeInsets.all(22.0),
+            child: const Icon(Icons.delete, color: Colors.red,),
           ),
           child: ListTile(
             leading: Column(
